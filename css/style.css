@@ -1,0 +1,139 @@
+body {
+	font-family: "adobe-garamond-pro";
+	
+	background-color: #0c1010;
+}
+
+@font-face {
+  font-family: title;
+  src: url(../font/MonumentValley12-X55o.otf);
+}
+
+body {
+	background-image: url("../img/islonetree90a.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: 2rem;
+}
+
+.is main {
+	padding: 1rem;
+	padding-top: 0;
+	color: #069498;
+	
+	font-family: "";
+}
+
+.is h1, h2, h3 {
+	font-family: "adobe-garamond-pro";
+	color: #0c1010;
+}
+
+.is .logo-title h1 {
+	font-size: 2.8rem;
+	font-family: title;
+	/*font-weight: bold;*/
+	/*letter-spacing: 1px;*/
+	
+	margin-top: 0.4rem;
+	margin-bottom: 4rem;
+	
+	opacity: 0.075;
+	
+	color: #069498;
+}
+
+.is .film-title {
+	font-family: "adobe-garamond-pro";
+	font-weight: normal;
+	font-size: 2rem;
+	opacity: 0.75;
+	
+	
+	margin-bottom: 0.8rem;
+	
+	line-height: 14px;
+	letter-spacing: 0.1px;
+}
+
+.is .film-synop {
+	width: 50%;
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: start; /*center;*/
+}
+
+.is .film-quote {
+	
+	padding: 1.2rem 2rem 1.2rem 2rem;
+	
+	font-family: "adobe-garamond-pro";
+	font-size: 1.4rem;
+	
+	text-align: justify;
+	letter-spacing: -0.2px;
+	line-height: 1.6rem;
+	
+	color: #0c1010cc;
+	background-color: #06949811;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), #06949855);
+}
+
+@media (max-width: 40rem) {
+	.is .film-quote {
+		font-size: 1.2rem;
+		/*line-height: 1.4rem;*/
+	}
+}
+
+@media (max-width: 64rem) {
+	.is .video {
+		margin: 0 -1rem;
+	}
+	
+	.is .film-synop {
+		margin: 0 -1rem;
+	}
+	
+	.is .film-synop {
+		width: auto;
+	}
+	
+	.is .film-quote {
+		width: 100%;
+		padding: 1.2rem 1rem;
+		background-color: transparent;
+		/*background-color: #06949811;*/
+	}
+	
+	.is .film-info {
+		margin: 0 -1rem;
+		padding: 0 1rem;
+		background-color: #06949844;
+	}
+}
+
+.is .film-info { 
+	height: 2rem;
+	line-height: 2rem;
+	color: #0c1010;
+	
+	opacity: 0.65;
+	
+	font-size: 0.9rem;
+	font-weight: bold;
+	font-family: "adobe-garamond-pro";
+}
+
+.is .video-js .vjs-big-play-button {
+	border: none;
+	border-radius: 2px;
+	height: 1.5em;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.is .vjs-icon-placeholder {
+	color: rgba(255,255,255, 0.3);
+}
