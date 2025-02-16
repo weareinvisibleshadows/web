@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We Are Invisible Shadows</title>
+	
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	
+	<link rel="stylesheet" href="https://use.typekit.net/aiw6amw.css">
+	<link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+	<script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="is">
+    <main class="grid justify-start">
+	
+		<div class="logo-title text-center md:text-left">
+			<h1>Invisible Shadows</h1>  
+		</div>
+		
+		<div class="content">
+			<div class="film-card">
+				<h2 class="film-title">The Feast</h2> 
+				<div class="flex flex-col lg:flex-row lg:gap-[1rem] m-auto">
+					 
+					<div class="film grow">
+						<div class="video">
+							<video
+								id="my-video"
+								class="video-js"
+								controls
+								preload="auto"
+								width="auto"
+								height="auto"
+								data-setup='{"fluid": true}'
+								poster="./img/isthefeastscreencap001.png"
+								data-setup="{}"
+							>
+							<source src="./video/invisible_shadows_the_feast_trailer_1_web.mp4" type="video/mp4" />
+							<!--<source src="./video/invisible_shadows_the_feast_trailer_1.webm" type="video/webm" />-->
+							<p class="vjs-no-js">
+							  To view this trailer please enable JavaScript, and consider upgrading to a
+							  web browser that
+							  <a href="https://videojs.com/html5-video-support/" target="_blank"
+								>supports HTML5 video</a
+							  >
+							</p>
+							</video>
+						</div>
+						  
+						<div class="film-info flex flex-row justify-between">
+							<div class="status">
+								In Production
+							</div>
+							<div class="director">
+								Director: Ryan Christian
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="film-synop">
+						<div class="film-quote">
+							Humanity, unknowingly, has been nothing more than a carefully tended crop, 
+							destined to become nourishment for these long-dormant and forgotten creatures.  
+							As the feast begins, survival becomes a desperate struggle, but escape is just an illusion.  
+							This is not a hunt, but a reaping, and with each devoured life, the last vestiges of hope 
+							fade away, leaving humanity to face the chilling reality of its true place in the cosmic order.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    </main>
+    
+	<script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+	<!--<script src="./js/index.js"></script>-->
+  </body>
+</html>
