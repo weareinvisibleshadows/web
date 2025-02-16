@@ -73,9 +73,6 @@ body {
 }
 
 
-
-
-
 .is h1, h2, h3 {
 	font-family: "adobe-garamond-pro";
 	color: #0c1010;
@@ -85,7 +82,7 @@ body {
 	font-family: primary;
 	font-size: 2.8rem;
 	color: #069498;
-	opacity: 0.075;
+	opacity: 0.15;
 	
 	margin-top: 0.4rem;
 	margin-bottom: 4rem;
