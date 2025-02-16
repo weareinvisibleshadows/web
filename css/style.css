@@ -127,7 +127,7 @@ body {
 	.is .film-quote {
 		font-size: 1.2rem;
 		/*line-height: 1.4rem;*/
-		background-image: linear-gradient(to top, rgba(0,0,0,0), #06949855);
+		
 	}
 }
 
@@ -147,8 +147,9 @@ body {
 	.is .film-quote {
 		width: 100%;
 		padding: 1.2rem 1rem;
-		background-color: transparent;
-		/*background-color: #06949811;*/
+		/*background-color: transparent;*/
+		background-color: #069498011;
+		background-image: linear-gradient(to top, rgba(0,0,0,0), #06949855);
 	}
 	
 	.is .film-info {
